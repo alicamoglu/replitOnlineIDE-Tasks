@@ -1,22 +1,21 @@
-### Use `String methods` to take the given `str`, which has a bad word, and change the bad word into something nice. Print the fixed String
+### Use `String methods` to change the given `word` to all uppercase characters and all lowercase characters. The value of `word` will be input from a Scanner, but you only need to interact with the String variable. Output in the following format:
 
-> - Change the bad word `dumb` into `cool`
+> word: $given word
+
+> uppercase: $given word as all uppercase
+
+> lowercase: $given word as all lowercase
 
 Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation
 
 ```
 Ex:
   Input:
-    You are so dumb
+    jAVa
 
   Output:
-    You are so cool
+    word: jAVa
+    uppercase: JAVA
+    lowercase: java
 ```
-```
-Ex:
-  Input:
-    I'm dumb for failing the quiz
 
-  Output:
-    I'm cool for failing the quiz
-```

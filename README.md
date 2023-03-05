@@ -1,35 +1,22 @@
-### Use `String methods` to check if the given `word` starts with the letter `a` and ends with the letter `e`. Print two boolean values to represent each:
+### Use `String methods` to take the given `str`, which has a bad word, and change the bad word into something nice. Print the fixed String
 
-> Starts with a: $boolean
+> - Change the bad word `dumb` into `cool`
 
-> Ends with e: $boolean
-
-Main topics: String manipulation, Scanner, methods, primitive datatypes
+Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation
 
 ```
 Ex:
   Input:
-    apple
+    You are so dumb
 
   Output:
-    Starts with a: true
-    Ends with e: true
+    You are so cool
 ```
 ```
 Ex:
   Input:
-    air
+    I'm dumb for failing the quiz
 
   Output:
-    Starts with a: true
-    Ends with e: false
-```
-```
-Ex:
-  Input:
-    light
-
-  Output:
-    Starts with a: false
-    Ends with e: false
+    I'm cool for failing the quiz
 ```

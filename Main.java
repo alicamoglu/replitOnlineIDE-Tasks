@@ -1,18 +1,14 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    //DO NOT TOUCH BELOW
-    Scanner s = new Scanner(System.in);
-    String word = s.next();
-  
-    String wordUpperCase = word.toUpperCase(),
-           wordLowerCase = word.toLowerCase();
-      System.out.println("word: " + word);
-      System.out.println("uppercase: " + wordUpperCase);
-      System.out.println("lowercase: " + wordLowerCase);
-    //WRITE YOUR CODE BELOW
-
-
+    //DO NOT CHANGE
+    Scanner scan = new Scanner(System.in);
+    String word = scan.next();
+    //WRITE YOUR CODE HERE
+            System.out.println("first letter: " + word.charAt(0));
+        System.out.println("last letter: " + word.charAt(word.length()-1));
+    
+    
   }
 }

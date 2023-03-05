@@ -1,21 +1,28 @@
-### Use `String methods` to change the given `word` to all uppercase characters and all lowercase characters. The value of `word` will be input from a Scanner, but you only need to interact with the String variable. Output in the following format:
+### Use `String methods` to find the first and last character of the given `word`. The value of the `word` will be input from a Scanner, but you only need to interact with the String variable. Output in the following format:
 
-> word: $given word
+> first letter: $first character of the word
 
-> uppercase: $given word as all uppercase
-
-> lowercase: $given word as all lowercase
+> last letter: $last character of the word
 
 Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation
 
 ```
 Ex:
   Input:
-    jAVa
+    adobe
 
   Output:
-    word: jAVa
-    uppercase: JAVA
-    lowercase: java
+    first letter: a
+    last letter: e
+```
+
+```
+Ex:
+  Input:
+    Java
+
+  Output:
+    first letter: J
+    last letter: a
 ```
 

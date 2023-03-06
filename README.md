@@ -1,8 +1,8 @@
-### Use `String methods` to find the first and last character of the given `word`. The value of the `word` will be input from a Scanner, but you only need to interact with the String variable. Output in the following format:
+### Use `String methods` to print the given `word` without the first character and another output of the `word` without the last character. The value of the `word` will be input from a Scanner, but you only need to interact with the String variable. Output in the following format:
 
-> first letter: $first character of the word
+> without first letter: $word without the first character
 
-> last letter: $last character of the word
+> without last letter: $word without the last character
 
 Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation
 
@@ -12,17 +12,16 @@ Ex:
     adobe
 
   Output:
-    first letter: a
-    last letter: e
+    without first letter: dobe
+    without last letter: adob
 ```
 
 ```
 Ex:
   Input:
-    Java
+    run
 
   Output:
-    first letter: J
-    last letter: a
+    without first letter: un
+    without last letter: ru
 ```
-

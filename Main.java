@@ -1,14 +1,21 @@
-import java.util.Scanner;
-
-public class Main {
+import java.util.*;
+class Main {
   public static void main(String[] args) {
     //DO NOT TOUCH THESE LINE/LINES.
-    Scanner scan = new Scanner(System.in);
-    String word1 = scan.next();
-    String word2 = scan.next();
-            System.out.println(word1.length()<word2.length()?word2:word1.length()>word2.length()?word1:"");
+    Scanner s = new Scanner(System.in);
+    String order = s.next();
 
-    //WRITE YOUR CODE BELOW:
-    
+   //WRITE YOUR CODE BELOW THIS LINE:
+    float chickenPrice = 9.75f,
+          burgerPrice = 12.50f;
+      switch(order){
+        case  "chicken":
+          System.out.println("Your total is $"+chickenPrice);
+          break;
+        case "burger" :
+          System.out.printf("Your total is $" + "%1.2f",burgerPrice);
+      }
+
+     
   }
 }

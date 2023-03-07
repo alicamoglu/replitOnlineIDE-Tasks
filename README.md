@@ -1,24 +1,24 @@
-### Use `String methods` and `if statements` to find which of the given words is the longest one. Compare the two inputs `word1` and `word2` and print the word with more characters.
+### Use `String methods` and `if statements` for the fast food company's menu. There is two main orders: A Burger meal or a Chicken meal. The cashier will have an input `order` that will be used to determine the price. Use the following information to determine the price of the order:
 
-#### Note: The two words will not have the same lengths
+> - burger: $12.50
+> - chicken: $9.75
 
 Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation, if statements
 
 ```
 Ex:
   Input:
-    bill
-    check
+    chicken
 
   Output:
-    check
+    Your total is $9.75
 ```
+
 ```
 Ex:
   Input:
-    fashion
-    pear
+    burger
 
   Output:
-    fashion
+    Your total is $12.50
 ```

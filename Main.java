@@ -1,17 +1,24 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    //DO NOT TOUCH THIS PART
+    //DO NOT TOUCH THESE LINE/LINES
+    boolean exists = false;
     Scanner scan = new Scanner(System.in);
     String word = scan.next();
-        String withoutFirst = word.replace(String.valueOf(word.charAt(0)),""),
-                withoutLast = word.replace(word.substring(word.length()-1),"");
+    //WRITE YOUR CODE BELOW:
 
-//        String withoutFirst = word.replace(String.valueOf(word.charAt(0)),"");
-        System.out.println("without first letter: " + withoutFirst);
-        System.out.println("without last letter: " + withoutLast);
-    //WRITE YOUR CODE HERE
+        if (word.length()>=4){
+            if (word.substring(0,4).equals("java")||word.substring(1,5).equals("java")) {
+                exists = true;
+            }
+        }else if(word.length()==4) {
+            if (word.substring(0, 4).equals("java")) {
+                exists = true;
+            }
+        }
+            System.out.println(exists);
+
     
-  }
+    }
 }

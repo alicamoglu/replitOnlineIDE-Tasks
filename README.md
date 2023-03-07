@@ -1,33 +1,24 @@
-### Use `String methods` to check if the given `word` contains the text `java`, but not anywhere in the String. The `java` text must be in either position 0 or position 1 of the String. If the text `java` appears in any other position it is not valid and is not considered to be found in the String. Output a `boolean value, true or false`.
+### Use `String methods` and `if statements` to find which of the given words is the longest one. Compare the two inputs `word1` and `word2` and print the word with more characters.
 
-#### Note: You won't be able to just use contains method
+#### Note: The two words will not have the same lengths
 
-Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation
-
-```
-Ex:
-  Input:
-    javapython
-
-  Output:
-    true
-```
+Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation, if statements
 
 ```
 Ex:
   Input:
-    cjavac++
+    bill
+    check
 
   Output:
-    true
+    check
 ```
 ```
 Ex:
   Input:
-    c#javaruby
+    fashion
+    pear
 
   Output:
-    false
-
-  -> The 'java' is not in positions 0 or 1
+    fashion
 ```

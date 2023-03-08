@@ -1,21 +1,14 @@
-import java.util.*;
-class Main {
+import java.util.Scanner;
+
+public class Main {
   public static void main(String[] args) {
-    //DO NOT TOUCH THESE LINE/LINES.
-    Scanner s = new Scanner(System.in);
-    String order = s.next();
+    //DO NOT TOUCH FOLLOWING LINE/LINES
+    Scanner scan = new Scanner(System.in);
+    String word = scan.next();
+            String reverseResult = word.length()<5?"Too short!": 5<word.length()?"Too long!":new StringBuilder(word).reverse().toString();
 
-   //WRITE YOUR CODE BELOW THIS LINE:
-    float chickenPrice = 9.75f,
-          burgerPrice = 12.50f;
-      switch(order){
-        case  "chicken":
-          System.out.println("Your total is $"+chickenPrice);
-          break;
-        case "burger" :
-          System.out.printf("Your total is $" + "%1.2f",burgerPrice);
-      }
-
-     
+        System.out.println(reverseResult);
+    //WRITE YOUR CODE BELOW
+    
   }
 }

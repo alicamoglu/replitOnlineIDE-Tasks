@@ -1,34 +1,31 @@
-### Use `String methods` and `if statements` to reverse a String that is five characters long. If the given `word` is not five characters long, it will not be reversed. Use the following to output a value:
+### Use `String methods` and `if statements` to find the middle character/s of the given `word` variable. The value of the `word` will be input from a Scanner, but you only need to interact with the String variable. Output in the following format:
 
-> - If the `word` is less than 5 characters: print `Too short!`
-> - If the `word` is more than 5 characters: print `Too long!`
-> - If the `word` is 5 characters: print the `reversed version` of the String. Reading characters from the end to the beginning. 
+#### Note: Odd length words will have one middle character, but even length words will have two middle character, so use the length of the Strings to determine what the output should be.
 
 
-Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation, if statements
+Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation, if statements, operators
 
 ```
 Ex:
   Input:
-    cat
+    oak
 
   Output:
-    Too short!
-```
-
-```
-Ex:
-  Input:
-    singularity
-
-  Output:
-    Too long!
+    a
 ```
 ```
 Ex:
   Input:
-    apple
+    java
 
   Output:
-    elppa
+    av
+```
+```
+Ex:
+  Input:
+    apples
+
+  Output:
+    pl
 ```

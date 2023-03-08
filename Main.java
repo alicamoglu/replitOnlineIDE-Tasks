@@ -1,21 +1,15 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
     //DO NOT TOUCH FOLLOWING LINE/LINES
     Scanner scan = new Scanner(System.in);
-    String word = scan.next();
-    
-    //WRITE YOUR CODE BELOW
-    
-            int remainder = word.length() % 2;
+    String str = scan.next();
+    int n = scan.nextInt();
 
-        switch (remainder){
-            case 1:
-                System.out.println(word.charAt(word.length()/2));
-                break;
-            case 0:
-                System.out.println(""+word.charAt(word.length()/2-1) + word.charAt(word.length()/2));
-        }
+    //WRITE YOUR CODE BELOW
+        System.out.println(str.substring(n).contains(str.substring(0,n))?"true":"false");
+
+
   }
 }

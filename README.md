@@ -1,32 +1,18 @@
-### Use `String methods` and `if statements` to find what is inside of the sandwich. A sandwich is two pieces of bread with something between them. We want to see what is between our bread pieces. There will have only one input `str`. Inside of the `str` String we will look for the first occurrence of the text 'bread' and the last occurrence of the text 'bread'. Using those two points we will pull out the text between them. 
+### Finish the given method `cube()` to print the cubed value of the given `n` number. Print the result. Also call the `cube()` method in the `main method` to display result.
 
-> - If there is not two pieces of bread print the text: `nothing`
+#### This is a void method with no parameters
 
-Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation, if statements
+#### Hint: cube of a number is n^3 = n * n * n
 
+Main topics: methods, Scanner, primitive datatypes, operators
+
+Example:
 ```
-Ex:
-  Input:
-    breadjambread
+input:
+  5
 
-  Output:
-    jam
-```
-```
-Ex:
-  Input:
-    xxbreadjambreadyy
+output: 
+  125
 
-  Output:
-    jam
+-> our method would have done 5 * 5 * 5 to print the final value of 125  
 ```
-```
-Ex:
-  Input:
-    xxbreadapple
-
-  Output:
-    nothing
-```
-
-(add edge case of multiple bread pieces, we want first and last occurrences, so everything in between is returned)

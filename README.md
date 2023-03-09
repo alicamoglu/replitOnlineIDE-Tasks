@@ -1,38 +1,32 @@
-### Use `String methods` to determine if the prefix is found again somewhere later in the String. A prefix is the set of characters in the beginning of the String. To determine how long the prefix is,  use the given `n` value. For example, if `n` is 2, the prefix is the first two characters, so you would check if the String from the 3rd character until the end has those two character repeating anywhere. Output the result as a `boolean value, true or false`.
-Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation
+### Use `String methods` and `if statements` to find what is inside of the sandwich. A sandwich is two pieces of bread with something between them. We want to see what is between our bread pieces. There will have only one input `str`. Inside of the `str` String we will look for the first occurrence of the text 'bread' and the last occurrence of the text 'bread'. Using those two points we will pull out the text between them. 
+
+> - If there is not two pieces of bread print the text: `nothing`
+
+Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation, if statements
 
 ```
 Ex:
   Input:
-    abXYabc
-    1
+    breadjambread
 
   Output:
-    true
-
-  -> 'a' is the prefix because n is 1, and the character 'a' is found again in the String "bXYabc"
-```
-
-```
-Ex:
-  Input:
-    abXYabc
-    2
-
-  Output:
-    true
-
-  -> 'ab' is the prefix because n is 2, and the characters 'ab' are found again in the String "XYabc"
+    jam
 ```
 ```
 Ex:
   Input:
-    abXYabc
-    3
+    xxbreadjambreadyy
 
   Output:
-    false
+    jam
+```
+```
+Ex:
+  Input:
+    xxbreadapple
 
-  -> 'abX' is the prefix because n is 3, and the characters 'a' are NOT found again in the String "Yabc"
+  Output:
+    nothing
 ```
 
+(add edge case of multiple bread pieces, we want first and last occurrences, so everything in between is returned)

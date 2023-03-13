@@ -1,18 +1,26 @@
-### Finish the given method `cube()` to print the cubed value of the given `n` number. Print the result. Also call the `cube()` method in the `main method` to display result.
+### Create a method called `next3()` that will take an int argument and print the three numbers that come after the given number. The `next3()` method is already called in the main method. Print in the following format:
 
-#### This is a void method with no parameters
+```
+$number1 $number2 $number3
 
-#### Hint: cube of a number is n^3 = n * n * n
+The three next numbers are printed on the same line with spaces between them
+```
+
+#### This is a `void` method with an `int` parameter
 
 Main topics: methods, Scanner, primitive datatypes, operators
 
 Example:
 ```
-input:
-  5
+  next3(1)
 
 output: 
-  125
+  2 3 4
+```
+Example:
+```
+  next3(10)
 
--> our method would have done 5 * 5 * 5 to print the final value of 125  
+output: 
+  11 12 13
 ```

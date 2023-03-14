@@ -1,26 +1,13 @@
-### Create a method called `next3()` that will take an int argument and print the three numbers that come after the given number. The `next3()` method is already called in the main method. Print in the following format:
+### Use a `loop` to print all the even numbers from `1` to `20`. Print each number on the same line, with spaces between each
 
+### Use another `loop` to print all the odd numbers from `1` to `20`. Print each number on the same line, with spaces between each
+
+#### Note: In the end there will be two lines. First the line to show all the even numbers and then another line to show all the odd numbers
+
+Main topics: loops, primitive datatypes, if statement, operators
+
+Example Flow:
 ```
-$number1 $number2 $number3
-
-The three next numbers are printed on the same line with spaces between them
-```
-
-#### This is a `void` method with an `int` parameter
-
-Main topics: methods, Scanner, primitive datatypes, operators
-
-Example:
-```
-  next3(1)
-
-output: 
-  2 3 4
-```
-Example:
-```
-  next3(10)
-
-output: 
-  11 12 13
+2 4 6 .... 18 20
+1 3 5 .... 17 19
 ```

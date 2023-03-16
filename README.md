@@ -1,13 +1,21 @@
-### Use a `loop` to print all the even numbers from `1` to `20`. Print each number on the same line, with spaces between each
+### Finish the method called `reverse()` that will take a `String` `input` argument and returns a reversed version of `input`. Reverse the String meaning the characters in the end will be changed to the characters in the beginning and vice versa. The `reverse()` method is already called in the main method with an argument.
 
-### Use another `loop` to print all the odd numbers from `1` to `20`. Print each number on the same line, with spaces between each
+#### This is a `return` method with a `String` parameter
 
-#### Note: In the end there will be two lines. First the line to show all the even numbers and then another line to show all the odd numbers
+Main topics: methods, Scanner, loops, String, concatenation
 
-Main topics: loops, primitive datatypes, if statement, operators
-
-Example Flow:
+Example:
 ```
-2 4 6 .... 18 20
-1 3 5 .... 17 19
+  reverse("java")
+
+output: 
+  avaj
 ```
+Example:
+```
+  reverse("Hello")
+
+output: 
+  olleH
+```
+

@@ -1,20 +1,18 @@
-public class Main {
+import java.util.Scanner;
+
+class Main {
+	public static String reverse(String input){
+	   //WRITE YOUR CODE BELOW:
+    String input2 = "";
+    for (int i = input.length()-1; 0<= i ; i--) {
+        input2 += input.charAt(i);
+    }
+    return input2;
+	}
+
   public static void main(String[] args) {
-        String a = "",
-                b = "";
-
-
-        for (int i = 1; i <=20 ; i++) {
-            if (i % 2 == 0) {
-                a += i + " ";
-
-            } else {
-                b += i + " ";
-            }
-        }
-        a = a.substring(0,a.length()-1);
-        b = b.substring(0,b.length()-1);
-        System.out.println(a);
-        System.out.println(b);
+    Scanner in = new Scanner(System.in);
+		System.out.println(reverse(in.next()));
   }
+
 }

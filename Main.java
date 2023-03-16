@@ -1,18 +1,13 @@
 import java.util.Scanner;
 
-class Main {
-	public static String reverse(String input){
-	   //WRITE YOUR CODE BELOW:
-    String input2 = "";
-    for (int i = input.length()-1; 0<= i ; i--) {
-        input2 += input.charAt(i);
-    }
-    return input2;
-	}
-
+public class Main {
   public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
-		System.out.println(reverse(in.next()));
+    //DO NOT TOUCH BELOW:
+    Scanner scan = new Scanner(System.in);
+    int n = scan.nextInt();
+    //WRITE YOUR CODE HERE
+    for(int i = 1; i <=n; i++){
+      System.out.print("#");
+    }
   }
-
 }

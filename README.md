@@ -1,19 +1,30 @@
-### Create a method called `populate()` that will take an int argument and print an array that is populated/filled with numbers starting from 1 to the given number.
+### There is a zombie disease pandemic wiping out populations. Use a `loop` to keep track of the city's population. The starting population is given as the `inhabitants` value. Each day the city is losing half of its population. Write the program that will show the population day by day, until the city gets to zero.
 
-#### This is a `void` method with an `int` parameter
+#### Note: Case sensitivity should be considered. We are looking for the lowercase character versions of both Strings
 
-Main topics: methods, Scanner, primitive datatypes, operators, arrays, loops
+Main topics: loops, primitive datatypes, operators, Scanner, concatenation
 
-Example Flow:
 ```
-  populate(3)
+Ex:
+  Input:
+    6
 
-output: 
-  [1,2,3]
+  Output:
+    Day 0 [6]
+    Day 1 [3]
+    Day 2 [1]
+    ---- EXTINCT ----
 ```
 ```
-  populate(5)
+Ex:
+  Input:
+    20
 
-output: 
-  [1,2,3,4,5]
+  Output:
+    Day 0 [20]
+    Day 1 [10]
+    Day 2 [5]
+    Day 3 [2]
+    Day 4 [1]
+    ---- EXTINCT ----
 ```

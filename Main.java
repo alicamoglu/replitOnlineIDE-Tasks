@@ -1,21 +1,17 @@
 import java.util.*;
 
-class Main {
-	
-	public static void main(String[] args) {
-    //DO NOT TOUCH THE FOLLOWING LINES
-    Scanner in = new Scanner(System.in);
-    int n = in.nextInt();
-
-    populate(n);
-	}
-    //CREATE YOUR METHOD
-
-  public static void populate(int m){
-      int [] populateArray = new int[m];
-      for (int i = 0; i < m; i++) {
-          populateArray[i] = i+1;
-      }
-        System.out.println(Arrays.toString(populateArray));
-    }    
+public class Main {
+  public static void main(String[] args) {
+    //DO NOT TOUCH THESE LINES:
+    Scanner scan = new Scanner(System.in);
+    int inhabitants = scan.nextInt();
+    //WRITE YOUR CODE HERE:
+        int i = 0;
+        while (inhabitants >0){
+            System.out.println("Day " + i + " ["+inhabitants+"]");
+            inhabitants = inhabitants/2;
+            i++;
+        }
+    System.out.println("---- EXTINCT ----");
+  }
 }

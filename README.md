@@ -1,33 +1,19 @@
-### Finish the method called `getDup()` that will take a `String[]` argument `arr` and return an `int`. Find and return the number of duplicate elements. Any element is duplicate if it appears in the array more than once. The `getDup()` method is already called in the main method with an argument.
+### Create a method called `populate()` that will take an int argument and print an array that is populated/filled with numbers starting from 1 to the given number.
 
-#### This is a `return` method with `String[]` parameter
+#### This is a `void` method with an `int` parameter
 
-Main topics: methods, Scanner, arrays, loops, String
+Main topics: methods, Scanner, primitive datatypes, operators, arrays, loops
 
-Example:
+Example Flow:
 ```
-	String [] arr = {"1","2","aa"',"1"};
-	getDup(arr);
+  populate(3)
 
 output: 
-	2
-	("1" is duplicated and there are two "1"s so return is 2)
+  [1,2,3]
 ```
-Example:
 ```
-	String [] arr = {"1","2","aa"',"1", "aa"};
-	getDup(arr);
+  populate(5)
 
 output: 
-	4
-	("1" is duplicated and there are two "1"s and two "aa"s so return is 4)
-```
-Example:
-```
-	String [] arr = {"1","g","aabb',"7","7","2","aa"',"7"};
-	getDup(arr);
-
-output: 
-	3
-	("7" is duplicated three times and there is not other duplicate elements so return is 3)
+  [1,2,3,4,5]
 ```

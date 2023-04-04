@@ -1,32 +1,21 @@
 import java.util.*;
 
 class Main {
-  
-  public static int getDup(String[] arr) {
-        int totalDup = 0;
-        for (int i = 0; i < arr.length; i++) {
-            int count = 0;
-            for (int j = 0; j < arr.length; j++) {
-                if(arr[i].equals(arr[j])){
-                    count++;
-                }
-            }
-            if (1<count){
-            totalDup++;// += count;
-            }
-        }
-        return totalDup;
-  }
+	
+	public static void main(String[] args) {
+    //DO NOT TOUCH THE FOLLOWING LINES
+    Scanner in = new Scanner(System.in);
+    int n = in.nextInt();
 
-  public static void main(String[] args) {
-      Scanner in = new Scanner(System.in);
-      String [] strs = new String[in.nextInt()];
-      for(int i=0; i < strs.length; i++) {
-        strs[i] = in.next();
+    populate(n);
+	}
+    //CREATE YOUR METHOD
+
+  public static void populate(int m){
+      int [] populateArray = new int[m];
+      for (int i = 0; i < m; i++) {
+          populateArray[i] = i+1;
       }
-
-    System.out.println(getDup(strs));
-
-  } 
-
+        System.out.println(Arrays.toString(populateArray));
+    }    
 }
